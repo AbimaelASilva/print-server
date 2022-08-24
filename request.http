@@ -1,0 +1,16 @@
+
+//Este arquivo é só para auxiliar nos envios das requisições para não depender de um cliente externo, como por exemplo o POSTMAN
+POST http://localhost:4002/send-print
+Content-Type: application/json
+
+{
+    "name":"Melão",
+    "price": 25
+    }
+
+###
+GET http://localhost:4002/send-print
+
+
+###
+GET http://localhost:4002/send-print/PASSAR ID DO PRODUTO

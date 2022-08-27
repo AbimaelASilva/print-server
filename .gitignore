@@ -1,4 +1,6 @@
 # Miscellaneous
 
-.node_modules/
+node_modules/
+orderToPrint/
+
 

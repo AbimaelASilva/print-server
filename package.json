@@ -1,7 +1,7 @@
 {
-  "name": "aula-1",
+  "name": "print-server-fv",
   "version": "1.0.0",
-  "description": "Primeiro curso de NodeNJ - Vídeo aula youtube - RocketSeat",
+  "description": "Servidor de Impressão do Força de Venda",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js"
@@ -18,5 +18,9 @@
     "pdf-creator-node": "^2.3.5",
     "pdf-to-printer": "^5.3.0"
   },
-  "type": "module"
+  "type": "module",
+  "bin":"app.js",
+  "pkg": {
+    "assets":["orderToPrint/"]
+  }
 }
